@@ -16,7 +16,7 @@ console.log('Seat Number:', seatNumber);
 };
 
 return (
-<div className="ticket-form" style={{width:"50%",margin:"auto",padding:"20px",border:"1px solid #ccc",borderRadius:"10px",backgroundColor:"#f5f5f5",boxShadow:"0 2px 4px rgba(0,0,0,0.3"}}>
+<div className="ticket-form" style={{width:"50%",margin:"auto",marginTop:"88px",padding:"20px",border:"1px solid #ccc",borderRadius:"10px",backgroundColor:"#f5f5f5",boxShadow:"0 2px 4px rgba(0,0,0,0.3"}}>
 <h3 style={{textAlign:"center",marginBottom:"20px"}}>Book Movie Ticket</h3>
 <Form onSubmit={handleSubmit}>
 <Form.Group controlId="movieName">
